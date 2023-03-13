@@ -54,7 +54,7 @@ blockquote {
 	line-height: 1.4;
 	position: relative;
 	margin: 0;
-	padding: .5rem;
+	padding: .5rem 0;
 }
 
 blockquote:before,
@@ -79,7 +79,8 @@ blockquote:after {
 }
 
 cite {
-	line-height: 3;
+	padding: .5rem 0;
+	line-height: 3px;
 	text-align: left;
 }
 
@@ -88,10 +89,9 @@ cite {
 blockquote {
 	font-weight: 100;
 	font-size: 1rem;
-	max-width: 300px;
+	max-width: 310px;
 	line-height: 1.4;
 	position: relative;
-	margin: 0;
 	padding: .5rem;
 }
 
@@ -106,19 +106,13 @@ blockquote:after {
 
 blockquote:before {
 	content: '“';
-	left: -1.2rem;
+	left: -2rem;
 	top: -1rem;
 }
 
 blockquote:after {
 	content: '”';
-	right: .5rem;
+	right: .2rem;
 	bottom: 0.5rem;
 }
-
-cite {
-	line-height: 3;
-	text-align: left;
-}
-
 }
